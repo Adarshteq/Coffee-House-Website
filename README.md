@@ -1,8 +1,11 @@
-# ☕ Coffee House Website
+![C1](https://github.com/user-attachments/assets/7439ee7a-763b-413b-986b-e5bb0c0394a6)# ☕ Coffee House Website
 
 Welcome to the Coffee House — a stylish and responsive website built with HTML, CSS, and JavaScript.
 
 This project showcases a modern coffee shop with an elegant menu, beautiful visuals, and interactive features to enhance the user experience.
+
+![Uploading C1.png…]()
+
 
 # 🌟 Features
 
