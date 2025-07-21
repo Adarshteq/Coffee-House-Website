@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="homestyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div class="logo">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <div class="logo-text">
+            <span>Coffee</span>
+            <span>House</span>
+          </div>
+        </div>
+        <div class="navigation">
+          <a href="home.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About</a>
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+          <a href="cart.html" aria-label="Shopping Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </nav>
+      <!-- End of Navigation -->
+
+      <!-- Landing -->
+      <section class="landing">
+        <div class="banner">
+          <h3 class="main-heading">Welcome</h3>
+          <h1>Amazing taste & beautiful place</h1>
+          <p>
+            "Sip, Relax, Repeat – Your Perfect Brew Awaits at Coffee House!"
+          </p>
+          <form action="order.html">
+          <button type="button" class="banner-btn banner-btn-1" onclick="window.location.href='order.html'">
+            Order Now
+          </button>
+          </form>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://res.cloudinary.com/dbzvr3l7j/image/upload/v1742265608/image1_qk7nev.jpg" alt="A cup of coffee on a table">
+          </div>
+          <div class="swiper-slide">
+              <img src="https://res.cloudinary.com/dbzvr3l7j/image/upload/v1742265608/image2_flnfkt.jpg" alt="Coffee beans and a coffee cup">
+          </div>
+          <div class="swiper-slide">
+              <img src="https://res.cloudinary.com/dbzvr3l7j/image/upload/v1742265608/image3_kxm8nw.jpg" alt="A barista preparing coffee">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="landing-contact">
+          <div class="details">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <span>000 (123) 456 7890</span>
+              <span></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Landing -->
+
+      <!-- About -->
+      <section class="about">
+        <div>
+          <i class="fa-solid fa-mobile"></i>
+          <h1>Easy to Order</h1>
+          <p>
+            Ordering your favorite coffee has never been easier! At Coffee House, simply browse our menu, choose your brew, and place your order online or in-store. Enjoy quick service and a seamless experience with every sip!
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-truck"></i>
+          <h1>Fastest Delivery</h1>
+          <p>
+            Craving your favorite coffee? We’ve got you covered! At Coffee House, enjoy lightning-fast delivery straight to your door. Fresh, hot, and ready to brighten your day – every time!
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-mug-hot"></i>
+          <h1>Quality Coffee</h1>
+          <p>
+            At Coffee House, we take pride in serving only the finest, handpicked beans brewed to perfection. Every cup is crafted with care, ensuring rich flavor and unmatched quality. Taste the difference in every sip!
+          </p>
+        </div>
+      </section>
+      <!-- End of About -->
+
+      <!-- Menu -->
+      <section class="menu">
+        <div class="menu-left">
+          <h3 class="main-heading">Discover</h3>
+          <h1>Our Menu</h1>
+          <p>
+            Explore a world of flavors with our diverse menu at Coffee House! From classic espressos to creative seasonal specials, there’s something for every coffee lover. Discover your new favorite brew today!
+          </p>
+          <button type="button" class="menu-btn" onclick="window.location.href='menu.html'">View  Menu</button>
+        </div>
+        <div class="menu-right">
+          <div class="menu-right-images">
+            <div class="menu-img-wrapper">
+              <img src="https://res.cloudinary.com/dbzvr3l7j/image/upload/v1742265608/image4_cqhfh9.jpg" alt="A latte with latte art">
+          </div>
+          <div class="menu-img-wrapper">
+              <img src="https://res.cloudinary.com/dbzvr3l7j/image/upload/v1742265608/image5_zjxup1.jpg" alt="A cappuccino with foam">
+          </div>
+          <div class="menu-img-wrapper">
+              <img src="https://res.cloudinary.com/dbzvr3l7j/image/upload/v1742265610/image6_tl6lg1.jpg" alt="A coffee shop interior">
+          </div>
+          <div class="menu-img-wrapper">
+              <img src="https://res.cloudinary.com/dbzvr3l7j/image/upload/v1742265608/image7_nbp5nm.jpg" alt="A coffee cup with a saucer">
+          </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- End of Menu -->
+
+      <!-- Data -->
+      <section class="data">
+        <div>
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span class="icon-bg"></span>
+          </div>
+          <span class="num" data-val="350">0</span>
+          <span class="info">Coffee Branches</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <span class="icon-bg"></span>
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <span class="num" data-val="90">0</span>
+          <span class="info">Number of Awards</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <span class="icon-bg"></span>
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <span class="num" data-val="2540">0</span>
+          <span class="info">Happy Customers</span>
+        </div>
+        <div>
+          <div class="icon-wrapper">
+            <span class="icon-bg"></span>
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <span class="num" data-val="750">0</span>
+          <span class="info">Staff</span>
+        </div>
+      </section>
+      <!-- End of Data -->
+
+      <!-- Customers -->
+      <section class="customers">
+        <div class="customers-banner">
+          <h3 class="main-heading">Testimony</h3>
+          <h1>Customers Say</h1>
+          <p>
+            Our customers are at the heart of everything we do, and their words speak volumes. From the rich aroma of our coffee to the warm, welcoming atmosphere, hear what they have to say:<br>
+             'The best coffee in town!' – John. 
+             'A perfect place to unwind and enjoy a cup.' – Sarah.<br>
+              At Coffee House, we’re proud to create moments that leave a lasting impression.
+          </p>
+        </div>
+        
+      </section>
+      <!-- End of Customers -->
+
+      <!-- Contact -->
+      <section class="contact">
+        <div class="contact-left"></div>
+        <div class="contact-right">
+          <form>
+            <h1>Book a Table</h1>
+            <div class="input-group">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <div class="input-group">
+              <input type="email" placeholder="Email Address" />
+              <input type="text" placeholder="Phone" />
+            </div>
+            <div class="input-group">
+              <textarea placeholder="Message"></textarea>
+              <button type="button" class="contact-btn">Appointment</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- End of Contact -->
+
+      <!-- Footer -->
+      <footer>
+        <p class="copyright">
+          &copy; All Rights Reserved. Made by Code And Create
+        </p>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="homescript.js"></script>
+  </body>
+</html>
+
